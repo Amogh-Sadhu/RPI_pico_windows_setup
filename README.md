@@ -1,5 +1,5 @@
 # Raspberrry pi Windows Setup
-## A short guide to program and run rpi pico on a windows machine using vscode
+## A short guide to program and run rpi pico on a windows machine using vscode with a example project.
 
 ### Things to download & install
 [ARM GCC Compiler](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)   
@@ -52,8 +52,16 @@ Scroll and select `Cmake: Configure Environment` and set item as `PICO_SDK_PATH`
 Scroll down further until you find `Cmake: Generator`. Enter `NMake Makefiles` in the space below.   
 
 Close the setting window and select `Explorer` tab on the top left and click on `Open Folder` option.  
-Browse to c:\pico\pico-examples\ and select the folder.
-Select yes when asked to configure project
+Browse to c:\pico\pico-examples\ and select the folder.  
 
-image
+Select yes when asked to configure project. For kit option select `GCC for arm-none-eabi`  
+Now you can use the build option to select and build your project.  
+
+`Upload the code to rpi pico using uf2 file, just copy uf2 file to rpi-pico storage media.`  
+
+## Now let's create a example project of our own
+
+
+
+
 
